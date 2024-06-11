@@ -1,7 +1,7 @@
 // ::::::Binary Search::::::
 
 
-const binarySearch = (array,x)=>{
+const binarySearch = (array, x) => {
     let start = 0, end = array.length - 1;
 
     while (start <= end) {
@@ -14,8 +14,7 @@ const binarySearch = (array,x)=>{
         // Else look in left or right half accordingly
         else if (array[mid] < x) {
             start = mid + 1;
-        }
-        else {
+        } else {
             end = mid - 1;
         }
     }
