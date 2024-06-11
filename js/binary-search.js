@@ -1,6 +1,5 @@
 // ::::::Binary Search::::::
 
-const binarySearchArray = [1, 3, 5, 7, 8, 9];
 
 const binarySearch = (array,x)=>{
     let start = 0, end = array.length - 1;
@@ -23,7 +22,7 @@ const binarySearch = (array,x)=>{
 
     return false;
 }
-
+const binarySearchArray = [1, 3, 5, 7, 8, 9];
 const x = 6;
 
 const found = binarySearch(binarySearchArray, x);

@@ -1,7 +1,5 @@
 // ::::::Quick Sort::::::
 
-const quickSortArray = [8, 4, 23, 42, 16, 15];
-
 function quickSort(arr) {
     if (arr.length <= 1) {
         return arr;
@@ -22,5 +20,6 @@ function quickSort(arr) {
     return quickSort(left).concat(pivot, quickSort(right));
 }
 
+const quickSortArray = [8, 4, 23, 42, 16, 15];
 
 console.log(quickSort(quickSortArray))
