@@ -1,6 +1,5 @@
 // ::::::Quick Sort::::::
 
-
 const quickSortArray = [8, 4, 23, 42, 16, 15];
 
 function quickSort(arr) {

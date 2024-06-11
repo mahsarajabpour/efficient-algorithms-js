@@ -1,3 +1,4 @@
+// ::::::Binary Search::::::
 
 const binarySearchArray = [1, 3, 5, 7, 8, 9];
 
