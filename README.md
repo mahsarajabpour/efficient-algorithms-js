@@ -11,7 +11,7 @@ git clone https://github.com/your-username/efficient-algorithm.git
 ```
 Next, integrate the algorithms you need into your application.
 
-### How To Use
+## How To Use
 Dive into each algorithm with provided usage examples. Here's a sneak peek:
 
 ```
