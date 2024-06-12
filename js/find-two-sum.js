@@ -1,3 +1,5 @@
+//::::::linear Search::::::
+
 function findTwoSum(nums, target) {
     const indices = new Map();
 
